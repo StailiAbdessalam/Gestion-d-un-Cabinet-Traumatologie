@@ -1,0 +1,359 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+main {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  .profil_center {
+    width: 80%;
+    height: 80%;
+    border-radius: 12px;
+    background-color: #f4f4fb;
+  }
+
+  .details {
+    width: 100%;
+    height: 15%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    color: rgba(104, 102, 102, 1);
+    font-size: 30px;
+    font-family: sans-serif;
+    border-bottom: 2px solid rgba(188, 186, 186, 0.64);
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+  }
+  .info_docteur_ {
+    width: 100%;
+    height: 70%;
+    display: flex;
+  }
+  .profil__photos {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .profil__photos img {
+    width: 70%;
+  }
+  .donner_docteur {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form {
+    width: 100%;
+    height: 100%;
+  }
+  .pp {
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .pp input {
+    border: none;
+    outline: none;
+    background-color: #f4f4fb;
+    width: 60%;
+    border-radius: 10px;
+  }
+  .sp_nn,
+  .phone_nn,
+  .full_nn,
+  .date_nn {
+    width: 40%;
+    border-bottom: 1px solid black;
+    display: flex;
+    color: rgba(192, 191, 191, 1);
+    font-size: 20px;
+  }
+
+  .mail_nn {
+    width: 90%;
+    border-bottom: 1px solid black;
+    display: flex;
+    color: rgba(192, 191, 191, 1);
+    font-size: 20px;
+    justify-content: flex-start;
+  }
+  ._modifier {
+    height: 20%;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+  }
+  #subb {
+    width: 20%;
+    height: 60%;
+    background-color: rgba(79, 168, 240, 1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-right: 4%;
+    cursor: pointer;
+  }
+  #subb:hover {
+    background-color: white;
+    color: rgba(79, 168, 240, 1);
+    border: 2px solid rgba(79, 168, 240, 1);
+  }
+}
+#menu {
+  display: none;
+}
+@media (max-width: 440px) {
+  main .profil_center {
+    background-color: white;
+    width: 100%;
+  }
+  main .details {
+    width: 100%;
+    font-size: 18px;
+    padding-left: 10px;
+    display: flex;
+    align-items: flex-end;
+    height: 1px;
+  }
+  main .info_docteur_ {
+    display: flex;
+    flex-direction: column;
+  }
+  main .profil__photos {
+    width: 100%;
+    margin: 30px 0px;
+  }
+  main .profil__photos img {
+    width: 45%;
+  }
+  main .donner_docteur {
+    width: 100%;
+    height: 100%;
+  }
+  main .form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  main .pp {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+  }
+  main .mail_nn,
+  main .sp_nn,
+  main .phone_nn,
+  main .full_nn,
+  main .date_nn {
+    height: 100%;
+    width: 80%;
+  }
+  main .pp input {
+    background-color: white;
+  }
+  main #subb {
+    height: 250%;
+    margin-right: 10%;
+    width: 38%;
+  }
+  #menu {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 104vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(79, 168, 240, 1);
+    margin-top: -182%;
+  }
+  #menu i {
+    position: absolute;
+    top: 6%;
+    right: 3%;
+    font-size: 36px;
+    color: white;
+  }
+  .menuieu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    right: 34%;
+    gap: 40px;
+    color: white;
+    font-size: 20px;
+  }
+  .menuieu li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .menuieu li a button {
+    width: 95px;
+    height: 35px;
+    color: rgba(79, 168, 240, 1);
+    background-color: white;
+    border-radius: 8px;
+    border: 1px black solid;
+  }
+}
+.amin {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.562);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  .popap {
+    width: 50%;
+    height: 60%;
+    background-color: white;
+    border-radius: 12px;
+  }
+  .title {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    font-size: 22px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    color: rgba(79, 168, 240, 1);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-left: 20px;
+  }
+  .title i {
+    font-size: 44px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  #form {
+    width: 100%;
+    height: 80%;
+  }
+  .input1,
+  .input2,
+  .input3 {
+    width: 100%;
+    height: 28%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .input3 {
+    height: 44%;
+  }
+  .input1 input,
+  .input2 input,
+  .input3 input {
+    outline: none;
+    border: none;
+    width: 90%;
+  }
+  .input3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .input1 div,
+  .input2 div {
+    border: 2px solid rgba(196, 196, 196, 0.36);
+    border-radius: 12px;
+    width: 40%;
+    height: 37%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+  }
+  .input3 div {
+    width: 89%;
+    height: 24%;
+    border: 2px solid rgba(196, 196, 196, 0.36);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+  }
+  .input3 button {
+    width: 26%;
+    height: 20%;
+    background-color: rgba(79, 168, 240, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .input3 button:hover {
+    background-color: white;
+    color: rgba(79, 168, 240, 1);
+    border: 2px solid rgba(79, 168, 240, 1);
+  }
+}
+@media (max-width: 440px) {
+  .amin .popap{
+    width: 70%;
+  }
+  .input1,
+  .input2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .amin .input2 div,
+  .amin .input1 div {
+    width: 90%;
+   gap: 8px;
+  }
+  .amin .input3 div {
+    gap: 8px;
+  }
+  .amin .title {
+    font-size: 18px;
+    padding-left: 17px;
+    padding-top: 21%;
+}
+  .amin   .title i{
+    position: absolute;
+    top: 23%;
+    right: 14%;
+  }
+.amin #form{
+  padding-top: 2%;
+  height: 95%;
+}
+.amin .input3{
+  display: flex;
+  margin-top: 7px;
+  gap: 10px;
+}
+.amin .input3 button {
+  width: 54%;
+  height: 23%;
+  margin-bottom: 28%;
+}
+
+
+}
+

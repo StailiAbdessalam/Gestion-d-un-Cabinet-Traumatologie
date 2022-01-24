@@ -1,0 +1,199 @@
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #f3f3f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
+footer .footr {
+  width: 100%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footr .info {
+  height: 100%;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 24px;
+  font-family: sans-serif;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 5%;
+  color: #3a3939;
+}
+
+footer .footr .info .informa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+footer .footr .emailll {
+  width: 60%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footr .emailll .phra {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  font-size: 21px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+footer .footr .emailll .abonner {
+  width: 60%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footr .emailll .abonner .mail_footer {
+  width: 70%;
+  height: 40px;
+  border: 1px #90caf9 solid;
+}
+
+footer .footr .emailll .abonner .ok {
+  height: 40px;
+  width: 30%;
+  border-radius: 0px;
+  background-color: #90caf9;
+  color: black;
+}
+
+footer .chengement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 70%;
+}
+
+footer .footr .fb {
+  height: 100%;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 36px;
+  padding-right: 5%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .ellise {
+  width: 8%;
+  border-radius: 100%;
+  background-color: rgba(117, 107, 107, 0.205);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .copi {
+  border-top: 1px #3a3939 solid;
+  color: #3a3939;
+  width: 100%;
+  height: 25%;
+  border-bottom: 3px solid #9e9898;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+@media (max-width: 440px) {
+  footer .footr {
+    font-size: 14px;
+  }
+  footer .chengement {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  footer .footr .info {
+    font-size: 18px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    width: 100%;
+    padding-left: 14px;
+  }
+  footer .footr .emailll {
+    width: 128%;
+  }
+  footer .footr .emailll .phra {
+    display: none;
+  }
+  footer .copi {
+    display: none;
+  }
+  footer .fb {
+    margin: 10px 10px;
+    font-size: 30px;
+  }
+  footer .ellise {
+    width: 52%;
+    height: 22%;
+  }
+}
+/*# sourceMappingURL=footre.css.map */

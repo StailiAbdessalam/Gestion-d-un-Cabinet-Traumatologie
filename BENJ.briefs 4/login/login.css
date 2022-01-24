@@ -1,0 +1,291 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 17%;
+}
+
+header .logo-home {
+  width: 180px;
+  margin-left: 3px;
+}
+
+header .bu_home {
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 2px solid #4fa8f0;
+  color: #4fa8f0;
+  font-weight: bold;
+  margin-right: 11%;
+  margin-top: 2%;
+  -webkit-box-shadow: 0px 4px 4px 0px;
+          box-shadow: 0px 4px 4px 0px;
+}
+
+header .e_home {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .alert_log {
+  width: 60%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(144, 202, 249, 0.41);
+  border-radius: 11px;
+}
+
+main .partie_gauche {
+  width: 50%;
+}
+
+main .partie_gauche img {
+  width: 100%;
+  height: 100%;
+}
+
+main .partie_daroite {
+  width: 50%;
+  background-color: #f8f8fa;
+}
+
+main .en_phrase {
+  width: 100%;
+  height: 20%;
+  font-size: 32px;
+  color: #4fa8f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 10px;
+  padding-left: 30px;
+}
+
+main span {
+  font-weight: 900;
+}
+
+main .forma_log {
+  width: 100%;
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .forma_log form {
+  width: 70%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+main .aa {
+  border: none;
+  border-bottom: 2px solid #707071;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+  padding: 5px;
+}
+
+main .ab {
+  border: none;
+  outline: none;
+  background-color: #f8f8fa;
+  color: #c0bfbf;
+  font-size: 20px;
+}
+
+main .button_log {
+  width: 35%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+  position: absolute;
+  top: 52%;
+  left: 47%;
+}
+
+main .click_me {
+  width: 30%;
+  height: 45%;
+  color: #90caf9;
+  border: 2px solid #90caf9;
+  background-color: white;
+  border-radius: 4px;
+}
+
+main .e_back {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+main .e_back:hover {
+  color: white;
+  background-color: #90caf9;
+}
+
+main .click_m {
+  width: 30%;
+  height: 45%;
+  color: white;
+  background-color: #90caf9;
+  border: none;
+  border-radius: 4px;
+}
+
+main .e_click {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: #90caf9;
+  border: none;
+  cursor: pointer;
+}
+
+main .e_click:hover {
+  background-color: white;
+  color: #90caf9;
+  border: 2px solid #90caf9;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer button {
+  border: none;
+}
+
+footer .mail_footer {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+@media (max-width: 440px) {
+  header {
+    display: none;
+  }
+  main .alert_log {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  main .partie_gauche {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #90caf9;
+  }
+  main .partie_gauche img {
+    width: 40%;
+  }
+  main .partie_daroite {
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+    background-color: white;
+  }
+  main .aa {
+    padding: 5px;
+  }
+  main .ab {
+    background-color: white;
+    font-size: 16px;
+  }
+  main .en_phrase {
+    padding-top: 20px;
+  }
+  main .click_me,
+  main .click_m {
+    height: 43px;
+  }
+}
+/*# sourceMappingURL=login.css.map */

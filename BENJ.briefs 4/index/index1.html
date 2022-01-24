@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- se link pour le style de l'index -->
+    <link rel="stylesheet" href="index1.css" />
+    <!-- se link pour la lieson des icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- se link poue le compenent de footer  -->
+    <link rel="stylesheet" href="../footre_index.cmp/footre.css" />
+
+    <script
+      src="https://kit.fontawesome.com/3d49ef96c0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+
+  <body>
+    <script src="component_nav-bar_desktop.js"></script>
+    <!--header start-->
+    <header>
+      <div class="nav-bar">
+        <img src="logo.png" class="logo" />
+
+        <ul class="menu">
+          <li class="active" id="hh"><a href="#home">Home</a></li>
+          <li id="hh"><a href="#about">About</a></li>
+          <li id="hh"><a href="#review">Review</a></li>
+          <li id="hh"><a href="#contact">Contact</a></li>
+          <li>
+            <a href="../login/login.php"> <button type="button">ADMIN</button></a>
+          </li>
+        </ul>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+      </div>
+      <div class="nav-bar2">
+        <img src="logo.png" class="logo" />
+
+        <ul class="menu2">
+          <li class="active" id="hh"><a href="#home">Home</a></li>
+          <li id="hh"><a href="#about">About</a></li>
+          <li id="hh"><a href="#review">Review</a></li>
+          <li id="hh"><a href="#contact">Contact</a></li>
+          <li>
+            <a href="../login/login.php"> <button type="button">ADMIN</button></a>
+          </li>
+        </ul>
+        <div class="menu-toggle2"><i class="fas fa-times"></i></div>
+      </div>
+    </header>
+    <!--header end-->
+
+    <!--home section-->
+    <section class="home" id="home">
+      <div class="content">
+        <img class="doctors" src="Doctors-bro.png" alt="" />
+        <div class="para">
+          <h1><span>Stay</span> Safe, <span>Stay</span> Healthy.</h1>
+          <h3>Caring for your life.</h3>
+          <a href="#"><button class="button">Learn More</button></a>
+        </div>
+      </div>
+    </section>
+    <!--home section end-->
+
+    <!--about section-->
+    <section class="about" id="about">
+      <div class="boxs">
+        <div class="box">
+          <h3><i class="fas fa-ambulance"></i>Ambulance Services</h3>
+          <p>
+            For patients who are in critical condition<br />
+            and unable to move.
+          </p>
+        </div>
+        <div class="box">
+          <h3><i class="fas fa-procedures"></i>Emergency Rooms</h3>
+          <p>
+            For patients who must remain under<br />
+            medical care.
+          </p>
+        </div>
+        <div class="box">
+          <h3><i class="fas fa-stethoscope"></i>Cheap cheackups</h3>
+          <p>
+            For poor patients to be able <br />
+            to benefit.
+          </p>
+        </div>
+      </div>
+
+      <div class="img">
+        <img src="Medicine-amico (1).png" width="100%" ; alt="" />
+      </div>
+    </section>
+    <!--about section end-->
+    <section class="review" id="review">
+      <div class="container">
+        <h1 class="heading"><span>'</span> People's Review <span>'</span></h1>
+        <div class="box-container">
+          <div class="box">
+            <p>
+              Lorem ipsum dolor sit amet, consecteur adipiscing elit, maecenas
+              ex odio,ultricies eget. Nulla egestas quis turpis.
+            </p>
+            <h3>Sara Badri</h3>
+            <span>Jan 4,2021</span>
+            <img src="./persone1.png" alt="" />
+          </div>
+          <div class="box">
+            <p>
+              Lorem ipsum dolor sit amet, consecteur adipiscing elit, maecenas
+              ex odio,ultricies eget. Nulla egestas quis turpis.
+            </p>
+            <h3>Amine Rehall</h3>
+            <span>Mars 3,2021</span>
+            <img src="./persone2.png" alt="" />
+          </div>
+          <div class="box">
+            <p>
+              Lorem ipsum dolor sit amet, consecteur adipiscing elit, maecenas
+              ex odio,ultricies eget. Nulla egestas quis turpis.
+            </p>
+            <h3>Ziad Mazen</h3>
+            <span>Jui 6,2021</span>
+            <img src="./persone3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row-justify-content-center">
+          <h1 class="heading">
+            <span>'</span> Make An Appoinement <span>'</span>
+          </h1>
+          <div class="col-md-10">
+            <form action="">
+              <div class="row">
+                <div class="input-group">
+                  <input type="text" id="name" required />
+                  <label for="name">
+                    <i class="fas fa-user"></i> Full name</label
+                  >
+                </div>
+                <div class="input-group">
+                  <input type="text" id="number" required />
+                  <label for="subject"
+                    ><i class="fas fa-cog"></i> Subject</label
+                  >
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-group">
+                  <input type="email" id="email" required />
+                  <label for="email"
+                    ><i class="far fa-envelope"></i> Email</label
+                  >
+                </div>
+                <div class="input-group">
+                  <input type="" id="number" required />
+                  <label for="number"
+                    ><i class="fas fa-phone-alt"></i> Phone No</label
+                  >
+                </div>
+              </div>
+              <div class="input-group">
+                <textarea id="message" rows="8" required></textarea>
+                <label for="message"
+                  ><i class="far fa-comment-alt"></i> Message</label
+                >
+              </div>
+              <button type="submit">
+                SUBMIT <i class="far fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- ===> this tag the footer component  -->
+    <abdo-footer></abdo-footer>
+<!-- <=== -->
+
+
+    <script src="../footre_index.cmp/footre.js"></script>
+    <script>
+      const menuu = document.querySelector(".menu-toggle");
+      const nav = document.querySelector(".nav-bar2");
+      const handleClick = function () {
+        nav.classList.toggle("nav-bar2-open");
+      };
+      menuu.addEventListener("click", handleClick);
+      nav.addEventListener("click", handleClick);
+    </script>
+  </body>
+</html>

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../footre_index.cmp/footre.css">
     <!-- se link pour la lieson des icons -->
     <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Document</title>
 </head>
 <!-- body start  -->
@@ -31,9 +32,9 @@
         $sql = "SELECT * FROM docteur  ";
         $result = mysqli_query($conn, $sql);
         $docteur = mysqli_fetch_assoc($result);
-        if (($fullName===$docteur['nom']) && ($password===$docteur['Mot_pass'])) {
+        if (($fullName === $docteur['nom']) && ($password === $docteur['Mot_pass'])) {
             header('location:../Parofil_docteur/profil.php');
-        } 
+        }
     }
     ?>
 
@@ -55,7 +56,7 @@
                         </div>
                     </form>
                     <a href="../index/index1.html" class="click_me"><button class="e_back">BACK</button></a>
-                    
+
                 </div>
             </div>
         </div>
@@ -65,7 +66,7 @@
 
 
     <abdo-footer></abdo-footer>
-
+    
     <script src="../footre_index.cmp/footre.js"></script>
 </body>
 <!-- body end  -->

@@ -95,10 +95,10 @@ if (isset($_POST['brakkk'])) {
 
     <main class="gestion_P">
         <div class="header_T">
-            <div class="all">All Nurses
+            <div class="all">All Patient
             </div>
             <div class="ajouter">
-                <div class="add">Add Nurse :</div>
+                <div class="add">Add Patient :</div>
                 <i class='bx bx-plus'></i>
             </div>
         </div>
@@ -196,7 +196,7 @@ if (isset($_POST['brakkk'])) {
     <div class="amin">
         <div class="popap">
             <div class="titleee">
-                <div class="P_M">Profile Modification : </div>
+                <div class="P_M">ADD Patient : </div>
                 <i class='bx bx-x'></i>
             </div>
 
@@ -229,7 +229,7 @@ if (isset($_POST['brakkk'])) {
 <div class="update_popap">
 <div class="popap">
     <div class="titleee">
-        <div class="P_M">Profile Modification : </div>
+        <div class="P_M">UPDATE PATIENT : </div>
        <a href ="../patient/patient.php"> <i class="bx bx-x"></i></a>
     </div>
     <form action="" id="form" method="POST">

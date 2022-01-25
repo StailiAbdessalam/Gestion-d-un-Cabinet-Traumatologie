@@ -25,7 +25,7 @@ header {
     margin-top: 2%;
     box-shadow: 0px 4px 4px 0px;
   }
-  
+
   .e_home {
     width: 100%;
     height: 100%;
@@ -150,21 +150,19 @@ main {
     bottom: 31.5%;
     left: 54%;
   }
-  .click_m:hover{
+  .click_m:hover {
     background-color: white;
     color: rgba(144, 202, 249, 1);
     border: 2px solid rgba(144, 202, 249, 1);
     cursor: pointer;
-
   }
-  .e_click{
+  .e_click {
     height: 100%;
     width: 100%;
     color: white;
     background-color: rgba(144, 202, 249, 1);
     border: none;
     cursor: pointer;
-    
   }
   .e_click:hover {
     background-color: white;
@@ -173,8 +171,7 @@ main {
   }
 }
 footer {
-  position: fixed;
-  bottom: 0;
+  position: absolute;
   button {
     border: none;
   }
@@ -183,49 +180,60 @@ footer {
     font-size: 16px;
   }
 }
-@media(max-width:440px){
-header{
+@media (max-width: 440px) {
+  header {
     display: none;
-}
-main {
-
-    .alert_log{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        
+  }
+  main {
+    .alert_log {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
     }
-    .partie_gauche{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        background-color: rgba(144, 202, 249, 1.41);
+    .partie_gauche {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background-color: rgba(144, 202, 249, 1.41);
     }
-    .partie_gauche img{
-        width: 40%;
+    .partie_gauche img {
+      width: 40%;
     }
-    .partie_daroite{
-        width: 100%;
-        height: max-content;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        background-color: white;
+    .partie_daroite {
+      width: 100%;
+      height: max-content;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      background-color: white;
     }
-    .aa{
-
-        padding: 5px;
+    .aa {
+      padding: 5px;
     }
-    .ab{
-        background-color: white;
-        font-size: 16px;
+    .ab {
+      background-color: white;
+      font-size: 16px;
     }
-    .en_phrase{
-        padding-top: 20px;
+    .en_phrase {
+      padding-top: 20px;
     }
     .click_me,
-    .click_m{
-        height: 43px;
+    .click_m {
+      height: 40px;
+      width: 102px;
     }
-}
+    .click_m {
+      position: absolute;
+      bottom: 20.5%;
+      left: 22%;
+    }
+    .click_me {
+      position: absolute;
+      left: 20%;
+    }
+  }
+  footer {
+    position: absolute;
+    bottom: 0%;
+  }
 }

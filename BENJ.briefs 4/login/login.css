@@ -231,8 +231,7 @@ main .e_click:hover {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
+  position: absolute;
 }
 
 footer button {
@@ -298,7 +297,21 @@ footer .mail_footer {
   }
   main .click_me,
   main .click_m {
-    height: 43px;
+    height: 40px;
+    width: 102px;
+  }
+  main .click_m {
+    position: absolute;
+    bottom: 20.5%;
+    left: 22%;
+  }
+  main .click_me {
+    position: absolute;
+    left: 20%;
+  }
+  footer {
+    position: absolute;
+    bottom: 0%;
   }
 }
 /*# sourceMappingURL=login.css.map */

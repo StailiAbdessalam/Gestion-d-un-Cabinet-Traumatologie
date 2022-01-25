@@ -172,12 +172,15 @@ main .button_log {
 }
 
 main .click_me {
-  width: 30%;
-  height: 45%;
+  width: 10%;
+  height: 5%;
   color: #90caf9;
   border: 2px solid #90caf9;
   background-color: white;
   border-radius: 4px;
+  position: absolute;
+  top: 53.7%;
+  left: 54%;
 }
 
 main .e_back {
@@ -195,11 +198,21 @@ main .e_back:hover {
 
 main .click_m {
   width: 30%;
-  height: 45%;
+  height: 50%;
   color: white;
   background-color: #90caf9;
   border: none;
   border-radius: 4px;
+  position: absolute;
+  bottom: 31.5%;
+  left: 54%;
+}
+
+main .click_m:hover {
+  background-color: white;
+  color: #90caf9;
+  border: 2px solid #90caf9;
+  cursor: pointer;
 }
 
 main .e_click {

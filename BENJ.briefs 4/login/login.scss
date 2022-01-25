@@ -118,12 +118,15 @@ main {
     left: 47%;
   }
   .click_me {
-    width: 30%;
-    height: 45%;
+    width: 10%;
+    height: 5%;
     color: rgba(144, 202, 249, 1);
     border: 2px solid rgba(144, 202, 249, 1);
     background-color: white;
     border-radius: 4px;
+    position: absolute;
+    top: 53.7%;
+    left: 54%;
   }
   .e_back {
     width: 100%;
@@ -138,11 +141,21 @@ main {
   }
   .click_m {
     width: 30%;
-    height: 45%;
+    height: 50%;
     color: white;
     background-color: rgba(144, 202, 249, 1);
     border: none;
     border-radius: 4px;
+    position: absolute;
+    bottom: 31.5%;
+    left: 54%;
+  }
+  .click_m:hover{
+    background-color: white;
+    color: rgba(144, 202, 249, 1);
+    border: 2px solid rgba(144, 202, 249, 1);
+    cursor: pointer;
+
   }
   .e_click{
     height: 100%;

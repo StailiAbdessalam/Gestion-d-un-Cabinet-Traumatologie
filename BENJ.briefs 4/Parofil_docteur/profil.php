@@ -26,7 +26,7 @@
                 <li id="hh"><a href="../Nurese/firmier.php">Nurses</a></li>
                 <li class="active" id="hh"><a href="./profil.php">Profile</a></li>
                 <li>
-                    <a href="../index/index1.html"> <button class="hoo" type="button">Home</button></a>
+                    <a href="../index/index1.html"> <button class="hoo" type="button">Log out</button></a>
                 </li>
             </ul>
             <i id="Button-menu1" class='bx bx-menu'></i>
@@ -37,7 +37,7 @@
                     <li><a href=""> Patients </a></li>
                     <li><a href="../Nurese/firmier.php"> Nurses</a></li>
                     <li><a href="./profil.php"> Profile </a></li>
-                    <li><a href="../index/index1.html"><button>home</button> </a></li>
+                    <li><a href="../index/index1.html"><button>Log out</button> </a></li>
                 </ul>
             </div>
         </div>

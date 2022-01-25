@@ -51,10 +51,11 @@
                         <div class="aa"> <i class='bx bx-user' style='color:#040404'></i><input type="text" class="ab" name="user_name" placeholder="Full Name"></div>
                         <div class="aa"> <i class='bx bx-lock-alt'></i><input type="password" name="mot_pass" id="" class="ab" placeholder="Password"> </div>
                         <div class="button_log">
-                            <a href="../index/index1.html" class="click_me"><button class="e_back">BACK</button></a>
                             <input type="submit" class="click_m" value="LOGIN" name="nsabo" id="">
                         </div>
                     </form>
+                    <a href="../index/index1.html" class="click_me"><button class="e_back">BACK</button></a>
+                    
                 </div>
             </div>
         </div>

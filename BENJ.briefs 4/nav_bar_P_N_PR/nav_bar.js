@@ -9,7 +9,7 @@ abdo.innerHTML = `
         <li id="hh"><a href="#about">Nurses</a></li>
         <li class="active" id="hh"><a href="#home">Profile</a></li>
         <li>
-            <a href="../login/login.php"> <button class="hoo" type="button">Home</button></a>
+            <a href="../login/login.php"> <button class="hoo" type="button">Log out</button></a>
         </li>
     </ul>
     <i class='bx bx-menu'></i>

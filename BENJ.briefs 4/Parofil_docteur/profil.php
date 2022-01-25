@@ -22,7 +22,7 @@
         <div class="nav-bar">
             <img src="../index/logo.png" class="logo" />
             <ul class="menu">
-                <li id="hh"><a href="#review">Patients</a></li>
+                <li id="hh"><a href="../patient/patient.php">Patients</a></li>
                 <li id="hh"><a href="../Nurese/firmier.php">Nurses</a></li>
                 <li class="active" id="hh"><a href="./profil.php">Profile</a></li>
                 <li>
@@ -34,7 +34,7 @@
             <div id="menu">
                 <i class='bx bx-x' id="icon-S" style='color:#ffffff'></i>
                 <ul class="menuieu">
-                    <li><a href=""> Patients </a></li>
+                    <li><a href="../patient/patient.php"> Patients </a></li>
                     <li><a href="../Nurese/firmier.php"> Nurses</a></li>
                     <li><a href="./profil.php"> Profile </a></li>
                     <li><a href="../index/index1.html"><button>Log out</button> </a></li>
